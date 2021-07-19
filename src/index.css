@@ -1,13 +1,52 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .Collapsible {
+
+  cursor: pointer;
+  display: inline-block;
+}
+
+.Collapsible__trigger{
+  color: aqua;
+  background-color: bisque;
+  width: 100%;
+}
+
+.Collapsible__contentOuter {
+  color: blueviolet;
+} */
+.MuiAccordionDetails-root {
+flex-direction: column;
+margin-left: 27rem;
+
+}
+
+.MuiAccordionDetails-root h3 {
+  margin-top: 0.25rem;
+}
+
+.author-info {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-author {
+  margin-left: 0.5rem;
+}
+
+.edit-icon {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.edit-icon:hover {
+  background-color: grey;
+  border-radius: 50%;
+  padding: 0.25rem;
 }
